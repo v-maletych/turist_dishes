@@ -1,0 +1,1758 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(70, 51, 37, 0));
+    margin-top: 0;
+}
+
+.header-logo {
+    display: inline-block;
+}
+
+.name{
+    color: darkorange;
+    text-align: center;
+    margin-top: 45px;
+    font-family: Luminari, fantasy;
+    font-weight: bold;
+}
+
+.name-under{
+    color: white;
+    text-align: center;
+    font-family: Luminari, fantasy;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.first img {
+    float: left;
+    height: 470px;
+    width: auto;
+    margin-left: 7%;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+
+.text-right {
+    float: right;
+    width: 40%;
+    margin-right: 5%;
+    margin-top: 35px;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Verdana, sans-serif;
+    margin-bottom: 35px;
+}
+
+.second img {
+    float: right;
+    height: 500px;
+    width: auto;
+    margin-right: 7%;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.text-left {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 35px;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Verdana, sans-serif;
+    margin-bottom: 35px;
+}
+
+.name-of{
+    font-weight: bold;
+    font-size: 23px;
+    color: darkorange;
+}
+
+.name-of-char{
+    font-weight: bold;
+    font-size: 23px;
+    margin-top: 30px;
+    color: darkorange;
+}
+
+.punct-of-h{
+    font-size: 15px;
+    margin-top: 25px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+    margin-left: 16px;
+}
+
+.punct-of-h-second{
+    font-size: 15px;
+    margin-top: 25px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+.punct-of-h-late{
+    font-size: 15px;
+    margin-top: 25px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+.punct-of-text{
+    font-weight: bold;
+    font-size: 18px;
+    color: darkorange;
+}
+
+body{
+    background-image: url("img/background.png");
+    background-size: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(70, 51, 37, 0));
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
+    color: white;
+}
+
+.line{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.photo-end img{
+    margin-top: 100px;
+    width: 350px;
+    height: auto;
+    margin-left: 7%;
+}
+
+form{
+    float: right;
+    margin-right: 43%;
+    margin-top: 100px;
+}
+
+label{
+    color: white;
+    font-family: Verdana, sans-serif;
+}
+
+input{
+    height: 35px;
+    width: 330%;
+    border-radius: 7px;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #ccc;
+    color: white;
+    font-size: 17px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+input:focus {
+    border-color: darkorange;
+    outline: none;
+}
+
+.button-submit{
+    color: black;
+    background-color: darkorange;
+    height: 55px;
+    width: 332%;
+    border-radius: 7px;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    border-color: black;
+    border-width: 2px;
+    transition: all 0.2s ease;
+    margin-bottom: 50px;
+}
+
+.button-submit:active {
+    transform: scale(0.95);
+}
+
+.price {
+    color: white;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 21px;
+}
+
+.priceup{
+    color: white;
+    font-family: Verdana, sans-serif;
+    font-size: 21px;
+    position: absolute;
+    bottom: 0;
+    left: 25px;
+    width: 100%;
+    padding: 10px;
+    margin: 50px 20px -140px 210px;
+}
+
+.price p {
+    margin: 0;
+    color: greenyellow;
+    animation: jump 0.8s ease infinite;
+}
+
+.price del{
+    color: red;
+    font-size: 19px;
+}
+
+.priceh{
+    color: white;
+    font-size: 24px;
+}
+
+.pricehup{
+    color: white;
+    font-size: 24px;
+}
+
+.pricedelup{
+    color: red;
+    font-size: 19px;
+}
+
+.pupprice{
+    margin: 0;
+    color: greenyellow;
+    animation: jump 0.8s ease infinite;
+}
+
+@keyframes jump {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.price-for-phone{
+    display: none;
+}
+
+.priceup-for-phone{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    /* Reset CSS */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Global Styles */
+    body {
+        font-family: Verdana, sans-serif;
+        background-color: black;
+        color: white;
+        background-size: cover;
+        background-image: url("img/background-for-phones.png");
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+
+    /* Header */
+    .header {
+        height: 100px;
+        background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(70, 51, 37, 0));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-logo img {
+        max-width: 100px;
+    }
+
+    /* Main Content */
+    .name {
+        font-size: 24px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .name-under {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .line {
+        width: 100%;
+        height: 1px;
+        background-color: rgba(255, 255, 255, 0.3);
+        margin: 20px 0;
+    }
+
+    /* Product Details */
+    .first img,
+    .second img {
+        max-width: 70%;
+        height: auto;
+        border-radius: 10px;
+        margin: 20px 14%;
+    }
+
+    .photo-end img {
+        max-width: 40%;
+        height: auto;
+        border-radius: 10px;
+        margin: 20px 5%;
+    }
+
+    .text-right,
+    .text-left {
+        width: 100%;
+        margin: 0 auto;
+        text-align: justify;
+        padding: 0 20px;
+    }
+
+    .name-of,
+    .name-of-char {
+        font-size: 18px;
+        font-weight: bold;
+        color: darkorange;
+    }
+
+    .punct-of-h {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .punct-of-text {
+        font-weight: bold;
+        color: darkorange;
+    }
+
+    /* Form */
+    form {
+        margin: 20px auto; /* Center the form horizontally and add some top and bottom margin */
+         /* Set a maximum width for the form */
+        padding: 0 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 1px;
+    }
+
+    input {
+        width: 100%;
+        height: 40px;
+        border-radius: 7px;
+        border: 2px solid #ccc;
+        background-color: rgba(255, 255, 255, 0.2);
+        color: white;
+        font-size: 16px;
+        padding: 5px 89px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .button-submit {
+        width: 100%;
+        height: 50px;
+        border-radius: 7px;
+        background-color: darkorange;
+        color: black;
+        font-weight: bold;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .button-submit:hover {
+        background-color: #ff8c00;
+    }
+
+    /* Price */
+    .price {
+        display: none;
+    }
+
+    .price-for-phone{
+        display: block;
+        float: right;
+        margin-top: 60px;
+        margin-right: 25px;
+    }
+
+    .p-for-phone {
+        margin-bottom: 10px;
+        color: greenyellow;
+        font-size: 18px;
+        animation: jump 0.8s ease infinite;
+    }
+
+    .price-for-phone del {
+        color: red;
+        font-size: 15px;
+    }
+
+    .priceh-for-phone {
+        color: white;
+        font-size: 20px;
+    }
+
+
+    .priceup-for-phone{
+        display: block;
+        float: right;
+        margin-top: 45px;
+        margin-right: 125px;
+        margin-bottom: 45px;
+    }
+
+    .pupprice-for-phone{
+        margin-bottom: 10px;
+        color: greenyellow;
+        font-size: 18px;
+        animation: jump 0.8s ease infinite;
+    }
+
+    .pricehup-for-phone{
+        color: white;
+        font-size: 20px;
+    }
+
+    .priceup{
+        display: none;
+    }
+
+    footer {
+        background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(70, 51, 37, 0));
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 20px;
+    }
+
+    footer p {
+        margin: 0;
+        color: white;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 360px) and (max-width: 360px) {
+    /* Reset CSS */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Global Styles */
+    body {
+        font-family: Verdana, sans-serif;
+        background-color: black;
+        color: white;
+        background-size: cover;
+        background-image: url("img/background-for-phones.png");
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+
+    /* Header */
+    .header {
+        height: 100px;
+        background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(70, 51, 37, 0));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-logo img {
+        max-width: 100px;
+    }
+
+    /* Main Content */
+    .name {
+        font-size: 24px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .name-under {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .line {
+        width: 100%;
+        height: 1px;
+        background-color: rgba(255, 255, 255, 0.3);
+        margin: 20px 0;
+    }
+
+    /* Product Details */
+    .first img,
+    .second img {
+        max-width: 70%;
+        height: auto;
+        border-radius: 10px;
+        margin: 20px 14%;
+    }
+
+    .photo-end img {
+        max-width: 40%;
+        height: auto;
+        border-radius: 10px;
+        margin: 20px 5%;
+    }
+
+    .text-right,
+    .text-left {
+        width: 100%;
+        margin: 0 auto;
+        text-align: justify;
+        padding: 0 20px;
+    }
+
+    .name-of,
+    .name-of-char {
+        font-size: 18px;
+        font-weight: bold;
+        color: darkorange;
+    }
+
+    .punct-of-h {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .punct-of-text {
+        font-weight: bold;
+        color: darkorange;
+    }
+
+    /* Form */
+    form {
+        margin: 20px auto; /* Center the form horizontally and add some top and bottom margin */
+         /* Set a maximum width for the form */
+        padding: 0 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 1px;
+        font-size: 14px;
+    }
+
+    input {
+        width: 100%;
+        height: 35px;
+        border-radius: 7px;
+        border: 2px solid #ccc;
+        background-color: rgba(255, 255, 255, 0.2);
+        color: white;
+        font-size: 16px;
+        padding: 5px 75px 0 50px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .button-submit {
+        width: 100%;
+        height: 50px;
+        border-radius: 7px;
+        background-color: darkorange;
+        color: black;
+        font-weight: bold;
+        font-size: 15px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .button-submit:hover {
+        background-color: #ff8c00;
+    }
+
+    /* Price */
+    .price {
+        display: none;
+    }
+
+    .price-for-phone{
+        display: block;
+        float: right;
+        margin-top: 60px;
+        margin-right: 25px;
+    }
+
+    .p-for-phone {
+        margin-bottom: 10px;
+        color: greenyellow;
+        font-size: 16px;
+        animation: jump 0.8s ease infinite;
+    }
+
+    .price-for-phone del {
+        color: red;
+        font-size: 14px;
+    }
+
+    .priceh-for-phone {
+        color: white;
+        font-size: 18px;
+    }
+
+
+    .priceup-for-phone{
+        display: block;
+        float: right;
+        margin-top: 45px;
+        margin-right: 95px;
+        margin-bottom: 45px;
+    }
+
+    .pupprice-for-phone{
+        margin-bottom: 10px;
+        color: greenyellow;
+        font-size: 18px;
+        animation: jump 0.8s ease infinite;
+    }
+
+    .pricehup-for-phone{
+        color: white;
+        font-size: 20px;
+    }
+
+    .priceup{
+        display: none;
+    }
+
+    footer {
+        background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(70, 51, 37, 0));
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 20px;
+    }
+
+    footer p {
+        margin: 0;
+        color: white;
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 320px) {
+    /* Reset CSS */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Global Styles */
+    body {
+        font-family: Verdana, sans-serif;
+        background-color: black;
+        color: white;
+        background-size: cover;
+        background-image: url("img/background-for-phones.png");
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+
+    /* Header */
+    .header {
+        height: 100px;
+        background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(70, 51, 37, 0));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-logo img {
+        max-width: 100px;
+    }
+
+    /* Main Content */
+    .name {
+        font-size: 24px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .name-under {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .line {
+        width: 100%;
+        height: 1px;
+        background-color: rgba(255, 255, 255, 0.3);
+        margin: 20px 0;
+    }
+
+    /* Product Details */
+    .first img,
+    .second img {
+        max-width: 70%;
+        height: auto;
+        border-radius: 10px;
+        margin: 20px 14%;
+    }
+
+    .photo-end img {
+        max-width: 40%;
+        height: auto;
+        border-radius: 10px;
+        margin: 20px 5%;
+    }
+
+    .text-right,
+    .text-left {
+        width: 100%;
+        margin: 0 auto;
+        text-align: justify;
+        padding: 0 20px;
+    }
+
+    .name-of,
+    .name-of-char {
+        font-size: 18px;
+        font-weight: bold;
+        color: darkorange;
+    }
+
+    .punct-of-h {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .punct-of-text {
+        font-weight: bold;
+        color: darkorange;
+        font-size: 17px;
+    }
+
+    /* Form */
+    form {
+        margin: 20px auto; /* Center the form horizontally and add some top and bottom margin */
+         /* Set a maximum width for the form */
+        padding: 0 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: -1px;
+        font-size: 14px;
+    }
+
+    input {
+        width: 100%;
+        height: 33px;
+        border-radius: 7px;
+        border: 2px solid #ccc;
+        background-color: rgba(255, 255, 255, 0.2);
+        color: white;
+        font-size: 16px;
+        padding: 5px 35px 0 50px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .button-submit {
+        width: 100%;
+        height: 50px;
+        border-radius: 7px;
+        background-color: darkorange;
+        color: black;
+        font-weight: bold;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .button-submit:hover {
+        background-color: #ff8c00;
+    }
+
+    /* Price */
+    .price {
+        display: none;
+    }
+
+    .price-for-phone{
+        display: block;
+        float: right;
+        margin-top: 60px;
+        margin-right: 25px;
+    }
+
+    .p-for-phone {
+        margin-bottom: 10px;
+        color: greenyellow;
+        font-size: 14px;
+        animation: jump 0.8s ease infinite;
+    }
+
+    .price-for-phone del {
+        color: red;
+        font-size: 13px;
+    }
+
+    .priceh-for-phone {
+        color: white;
+        font-size: 17px;
+    }
+
+
+    .priceup-for-phone{
+        display: block;
+        float: right;
+        margin-top: 45px;
+        margin-right: 70px;
+        margin-bottom: 45px;
+    }
+
+    .pupprice-for-phone{
+        margin-bottom: 10px;
+        color: greenyellow;
+        font-size: 18px;
+        animation: jump 0.8s ease infinite;
+    }
+
+    .pricehup-for-phone{
+        color: white;
+        font-size: 20px;
+    }
+
+    .priceup{
+        display: none;
+    }
+
+    footer {
+        background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(70, 51, 37, 0));
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 20px;
+    }
+
+    footer p {
+        margin: 0;
+        color: white;
+        font-size: 10px;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 375px) and (max-width: 375px) {
+    /* Reset CSS */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Global Styles */
+    body {
+        font-family: Verdana, sans-serif;
+        background-color: black;
+        color: white;
+        background-size: cover;
+        background-image: url("img/background-for-phones.png");
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+
+    /* Header */
+    .header {
+        height: 100px;
+        background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(70, 51, 37, 0));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-logo img {
+        max-width: 100px;
+    }
+
+    /* Main Content */
+    .name {
+        font-size: 24px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .name-under {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .line {
+        width: 100%;
+        height: 1px;
+        background-color: rgba(255, 255, 255, 0.3);
+        margin: 20px 0;
+    }
+
+    /* Product Details */
+    .first img,
+    .second img {
+        max-width: 70%;
+        height: auto;
+        border-radius: 10px;
+        margin: 20px 14%;
+    }
+
+    .photo-end img {
+        max-width: 40%;
+        height: auto;
+        border-radius: 10px;
+        margin: 20px 5%;
+    }
+
+    .text-right,
+    .text-left {
+        width: 100%;
+        margin: 0 auto;
+        text-align: justify;
+        padding: 0 20px;
+    }
+
+    .name-of,
+    .name-of-char {
+        font-size: 18px;
+        font-weight: bold;
+        color: darkorange;
+    }
+
+    .punct-of-h {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .punct-of-text {
+        font-weight: bold;
+        color: darkorange;
+        font-size: 17px;
+    }
+
+    /* Form */
+    form {
+        margin: 20px auto; /* Center the form horizontally and add some top and bottom margin */
+         /* Set a maximum width for the form */
+        padding: 0 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: -1px;
+        font-size: 14px;
+    }
+
+    input {
+        width: 100%;
+        height: 35px;
+        border-radius: 7px;
+        border: 2px solid #ccc;
+        background-color: rgba(255, 255, 255, 0.2);
+        color: white;
+        font-size: 16px;
+        padding: 5px 100px 0 50px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .button-submit {
+        width: 100%;
+        height: 50px;
+        border-radius: 7px;
+        background-color: darkorange;
+        color: black;
+        font-weight: bold;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .button-submit:hover {
+        background-color: #ff8c00;
+    }
+
+    /* Price */
+    .price {
+        display: none;
+    }
+
+    .price-for-phone{
+        display: block;
+        float: right;
+        margin-top: 60px;
+        margin-right: 25px;
+    }
+
+    .p-for-phone {
+        margin-bottom: 10px;
+        color: greenyellow;
+        font-size: 16px;
+        animation: jump 0.8s ease infinite;
+    }
+
+    .price-for-phone del {
+        color: red;
+        font-size: 14px;
+    }
+
+    .priceh-for-phone {
+        color: white;
+        font-size: 17px;
+    }
+
+
+    .priceup-for-phone{
+        display: block;
+        float: right;
+        margin-top: 45px;
+        margin-right: 70px;
+        margin-bottom: 45px;
+    }
+
+    .pupprice-for-phone{
+        margin-bottom: 10px;
+        color: greenyellow;
+        font-size: 18px;
+        animation: jump 0.8s ease infinite;
+    }
+
+    .pricehup-for-phone{
+        color: white;
+        font-size: 20px;
+    }
+
+    .priceup{
+        display: none;
+    }
+
+    footer {
+        background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(70, 51, 37, 0));
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 20px;
+    }
+
+    footer p {
+        margin: 0;
+        color: white;
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 412px) and (max-width: 414px) {
+    /* Reset CSS */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Global Styles */
+    body {
+        font-family: Verdana, sans-serif;
+        background-color: black;
+        color: white;
+        background-size: cover;
+        background-image: url("img/background-for-phones.png");
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+
+    /* Header */
+    .header {
+        height: 100px;
+        background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(70, 51, 37, 0));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-logo img {
+        max-width: 100px;
+    }
+
+    /* Main Content */
+    .name {
+        font-size: 24px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .name-under {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .line {
+        width: 100%;
+        height: 1px;
+        background-color: rgba(255, 255, 255, 0.3);
+        margin: 20px 0;
+    }
+
+    /* Product Details */
+    .first img,
+    .second img {
+        max-width: 70%;
+        height: auto;
+        border-radius: 10px;
+        margin: 20px 14%;
+    }
+
+    .photo-end img {
+        max-width: 40%;
+        height: auto;
+        border-radius: 10px;
+        margin: 20px 5%;
+    }
+
+    .text-right,
+    .text-left {
+        width: 100%;
+        margin: 0 auto;
+        text-align: justify;
+        padding: 0 20px;
+    }
+
+    .name-of,
+    .name-of-char {
+        font-size: 18px;
+        font-weight: bold;
+        color: darkorange;
+    }
+
+    .punct-of-h {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .punct-of-text {
+        font-weight: bold;
+        color: darkorange;
+    }
+
+    /* Form */
+    form {
+        margin: 20px auto; /* Center the form horizontally and add some top and bottom margin */
+         /* Set a maximum width for the form */
+        padding: 0 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 1px;
+    }
+
+    input {
+        width: 100%;
+        height: 40px;
+        border-radius: 7px;
+        border: 2px solid #ccc;
+        background-color: rgba(255, 255, 255, 0.2);
+        color: white;
+        font-size: 16px;
+        padding: 5px 81px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .button-submit {
+        width: 100%;
+        height: 50px;
+        border-radius: 7px;
+        background-color: darkorange;
+        color: black;
+        font-weight: bold;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .button-submit:hover {
+        background-color: #ff8c00;
+    }
+
+    /* Price */
+    .price {
+        display: none;
+    }
+
+    .price-for-phone{
+        display: block;
+        float: right;
+        margin-top: 60px;
+        margin-right: 25px;
+    }
+
+    .p-for-phone {
+        margin-bottom: 10px;
+        color: greenyellow;
+        font-size: 18px;
+        animation: jump 0.8s ease infinite;
+    }
+
+    .price-for-phone del {
+        color: red;
+        font-size: 15px;
+    }
+
+    .priceh-for-phone {
+        color: white;
+        font-size: 20px;
+    }
+
+
+    .priceup-for-phone{
+        display: block;
+        float: right;
+        margin-top: 45px;
+        margin-right: 125px;
+        margin-bottom: 45px;
+    }
+
+    .pupprice-for-phone{
+        margin-bottom: 10px;
+        color: greenyellow;
+        font-size: 18px;
+        animation: jump 0.8s ease infinite;
+    }
+
+    .pricehup-for-phone{
+        color: white;
+        font-size: 20px;
+    }
+
+    .priceup{
+        display: none;
+    }
+
+    footer {
+        background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(70, 51, 37, 0));
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 20px;
+    }
+
+    footer p {
+        margin: 0;
+        color: white;
+        font-size: 14px;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 390px) and (max-width: 390px) {
+    /* Reset CSS */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Global Styles */
+    body {
+        font-family: Verdana, sans-serif;
+        background-color: black;
+        color: white;
+        background-size: cover;
+        background-image: url("img/background-for-phones.png");
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+
+    /* Header */
+    .header {
+        height: 100px;
+        background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(70, 51, 37, 0));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-logo img {
+        max-width: 100px;
+    }
+
+    /* Main Content */
+    .name {
+        font-size: 24px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .name-under {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .line {
+        width: 100%;
+        height: 1px;
+        background-color: rgba(255, 255, 255, 0.3);
+        margin: 20px 0;
+    }
+
+    /* Product Details */
+    .first img,
+    .second img {
+        max-width: 70%;
+        height: auto;
+        border-radius: 10px;
+        margin: 20px 14%;
+    }
+
+    .photo-end img {
+        max-width: 40%;
+        height: auto;
+        border-radius: 10px;
+        margin: 20px 5%;
+    }
+
+    .text-right,
+    .text-left {
+        width: 100%;
+        margin: 0 auto;
+        text-align: justify;
+        padding: 0 20px;
+    }
+
+    .name-of,
+    .name-of-char {
+        font-size: 18px;
+        font-weight: bold;
+        color: darkorange;
+    }
+
+    .punct-of-h {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .punct-of-text {
+        font-weight: bold;
+        color: darkorange;
+    }
+
+    /* Form */
+    form {
+        margin: 20px auto; /* Center the form horizontally and add some top and bottom margin */
+         /* Set a maximum width for the form */
+        padding: 0 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 1px;
+    }
+
+    input {
+        width: 100%;
+        height: 40px;
+        border-radius: 7px;
+        border: 2px solid #ccc;
+        background-color: rgba(255, 255, 255, 0.2);
+        color: white;
+        font-size: 16px;
+        padding: 5px 70px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .button-submit {
+        width: 100%;
+        height: 50px;
+        border-radius: 7px;
+        background-color: darkorange;
+        color: black;
+        font-weight: bold;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .button-submit:hover {
+        background-color: #ff8c00;
+    }
+
+    /* Price */
+    .price {
+        display: none;
+    }
+
+    .price-for-phone{
+        display: block;
+        float: right;
+        margin-top: 60px;
+        margin-right: 25px;
+    }
+
+    .p-for-phone {
+        margin-bottom: 10px;
+        color: greenyellow;
+        font-size: 17px;
+        animation: jump 0.8s ease infinite;
+    }
+
+    .price-for-phone del {
+        color: red;
+        font-size: 15px;
+    }
+
+    .priceh-for-phone {
+        color: white;
+        font-size: 19px;
+    }
+
+
+    .priceup-for-phone{
+        display: block;
+        float: right;
+        margin-top: 45px;
+        margin-right: 125px;
+        margin-bottom: 45px;
+    }
+
+    .pupprice-for-phone{
+        margin-bottom: 10px;
+        color: greenyellow;
+        font-size: 18px;
+        animation: jump 0.8s ease infinite;
+    }
+
+    .pricehup-for-phone{
+        color: white;
+        font-size: 20px;
+    }
+
+    .priceup{
+        display: none;
+    }
+
+    footer {
+        background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(70, 51, 37, 0));
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 20px;
+    }
+
+    footer p {
+        margin: 0;
+        color: white;
+        font-size: 14px;
+    }
+
+}
+
+
+
+
+@media only screen and (min-width: 280px) and (max-width: 280px) {
+    /* Reset CSS */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Global Styles */
+    body {
+        font-family: Verdana, sans-serif;
+        background-color: black;
+        color: white;
+        background-size: cover;
+        background-image: url("img/background-for-phones.png");
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+
+    /* Header */
+    .header {
+        height: 100px;
+        background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(70, 51, 37, 0));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-logo img {
+        max-width: 100px;
+    }
+
+    /* Main Content */
+    .name {
+        font-size: 24px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .name-under {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .line {
+        width: 100%;
+        height: 1px;
+        background-color: rgba(255, 255, 255, 0.3);
+        margin: 20px 0;
+    }
+
+    /* Product Details */
+    .first img,
+    .second img {
+        max-width: 70%;
+        height: auto;
+        border-radius: 10px;
+        margin: 20px 14%;
+    }
+
+    .photo-end img {
+        max-width: 40%;
+        height: auto;
+        border-radius: 10px;
+        margin: 20px 5%;
+    }
+
+    .text-right,
+    .text-left {
+        width: 100%;
+        margin: 0 auto;
+        text-align: justify;
+        padding: 0 20px;
+    }
+
+    .name-of,
+    .name-of-char {
+        font-size: 18px;
+        font-weight: bold;
+        color: darkorange;
+    }
+
+    .punct-of-h {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .punct-of-text {
+        font-weight: bold;
+        color: darkorange;
+    }
+
+    /* Form */
+    form {
+        margin: 20px auto; /* Center the form horizontally and add some top and bottom margin */
+         /* Set a maximum width for the form */
+        padding: 0 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 1px;
+        font-size: 15px;
+    }
+
+    input {
+        width: 100%;
+        height: 35px;
+        border-radius: 7px;
+        border: 2px solid #ccc;
+        background-color: rgba(255, 255, 255, 0.2);
+        color: white;
+        font-size: 15px;
+        padding: 5px 10px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .button-submit {
+        width: 100%;
+        height: 50px;
+        border-radius: 7px;
+        background-color: darkorange;
+        color: black;
+        font-weight: bold;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .button-submit:hover {
+        background-color: #ff8c00;
+    }
+
+    /* Price */
+    .price {
+        display: none;
+    }
+
+    .price-for-phone{
+        display: block;
+        float: right;
+        margin-top: 60px;
+        margin-right: 25px;
+    }
+
+    .p-for-phone {
+        margin-bottom: 10px;
+        color: greenyellow;
+        font-size: 12px;
+        animation: jump 0.8s ease infinite;
+    }
+
+    .price-for-phone del {
+        color: red;
+        font-size: 12px;
+    }
+
+    .priceh-for-phone {
+        color: white;
+        font-size: 16px;
+    }
+
+
+    .priceup-for-phone{
+        display: block;
+        float: right;
+        margin-top: 45px;
+        margin-right: 70px;
+        margin-bottom: 45px;
+    }
+
+    .pupprice-for-phone{
+        margin-bottom: 10px;
+        color: greenyellow;
+        font-size: 15px;
+        animation: jump 0.8s ease infinite;
+    }
+
+    .pricehup-for-phone{
+        color: white;
+        font-size: 16px;
+    }
+
+    .priceup{
+        display: none;
+    }
+
+    .pricedelup{
+        font-size: 13px;
+        color: red;
+    }
+
+    footer {
+        background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(70, 51, 37, 0));
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 20px;
+    }
+
+    footer p {
+        margin: 0;
+        color: white;
+        font-size: 14px;
+    }
+
+}
