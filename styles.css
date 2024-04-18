@@ -16,6 +16,12 @@
     display: inline-block;
 }
 
+.header-logo img{
+    height: 200px;
+    width: auto;
+    margin-top: 40px;
+}
+
 .name{
     color: darkorange;
     text-align: center;
@@ -302,7 +308,9 @@ input:focus {
     }
 
     .header-logo img {
-        max-width: 100px;
+        height: 150px;
+        min-width: 250px;
+        margin-top: 40px;
     }
 
     /* Main Content */
