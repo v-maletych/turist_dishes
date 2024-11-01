@@ -148,7 +148,7 @@ footer p {
     margin-top: 100px;
     width: 350px;
     height: auto;
-    margin-left: 7%;
+    margin-left: 4%;
 }
 
 form{
@@ -164,7 +164,7 @@ label{
 
 input{
     height: 35px;
-    width: 330%;
+    width: 238.5%;
     border-radius: 7px;
     opacity: 0.8;
     background-color: rgba(255, 255, 255, 0);
@@ -184,7 +184,7 @@ input:focus {
     color: black;
     background-color: darkorange;
     height: 55px;
-    width: 332%;
+    width: 240%;
     border-radius: 7px;
     font-family: Verdana, sans-serif;
     font-weight: bold;
